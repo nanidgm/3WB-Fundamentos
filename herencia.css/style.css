@@ -11,3 +11,28 @@ h1 {
     border-radius: 15px;
     position: relative;
 }
+
+.parent h1 {
+    position: absolute;
+    font-size: 4.5rem;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+}
+
+.parent img {
+    position: absolute;
+}
+
+.orange {
+    right: 0;
+    top: 7%;
+    z-index: 1;
+}
+
+.leaf {
+    bottom: 18%;
+    left: -3%;
+    z-index: 3;
+    transform: rotate(-32deg);
+}
