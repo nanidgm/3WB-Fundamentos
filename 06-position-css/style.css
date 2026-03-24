@@ -1,0 +1,98 @@
+box-sizing: border-box;
+}
+
+/* Header */
+.navbar {
+    background-color: #333;
+    /* Un fondo oscuro */
+    overflow: hidden;
+    /* Para asegurarnos de que no haya desbordamientos */
+    display: flex;
+    /* Alinea los elementos en una fila */
+    justify-content: space-around;
+    /* Espacia uniformemente los elementos */
+    padding: 1em;
+}
+
+.navbar a {
+    color: white;
+    /* Enlaces en blanco para que resalten */
+    text-decoration: none;
+    /* Quitar el subrayado */
+    padding: 0.5em 1em;
+    /* Espacio alrededor de los enlaces */
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    /* Efecto hover para resaltar los enlaces */
+
+    transition: 0.3s;
+    /* Suavizar la transición del hover */
+}
+
+/* Escena de juego */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    @@ -49, 7+72, 7 @@ top: 30%;
+}
+
+.bg-game {
+    .bg-game {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        @@ -80, 10+103, 41 @@ .btn-world {
+            margin-left: auto;
+        }
+
+        .btn-config-game button {
+            .btn-config-game button {
+                font-size: 2rem;
+                border: none;
+                padding: 9px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            /* Footer */
+
+            .cookie-footer {
+                position: fixed;
+                /* Siempre visible al final de la pantalla */
+                bottom: 0;
+                /* Pegado a la parte inferior */
+                left: 0;
+                right: 0;
+                background-color: #222;
+                /* Fondo oscuro para que destaque */
+                color: #fff;
+                /* Texto en blanco para buen contraste */
+                padding: 1em;
+                display: flex;
+                /* Organiza el contenido de manera horizontal */
+                justify-content: space-between;
+                /* Espacia el texto y el botón */
+                align-items: center;
+            }
+
+            .cookie-footer a {
+                color: rgb(255, 224, 51)
+            }
+
+            .cookie-footer button {
+                background-color: #4caf50;
+                /* Verde para el botón */
+                color: white;
+                border: none;
+                padding: 0.5em 1em;
+                cursor: pointer;
+            }
+
+            .cookie-footer button:hover {
+                background-color: #45a049;
+                /* Efecto al pasar el ratón sobre el botón */
+            }
